@@ -1,0 +1,162 @@
+[
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": ["Fantasy", "Adventure"],
+    "publication_year": 1954,
+    "isbn": "9780544003415",
+    "copies_available": 3
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "genre": ["Fantasy", "Young Adult"],
+    "publication_year": 1997,
+    "isbn": "9781408855652",
+    "copies_available": 8
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": ["Fantasy", "Adventure"],
+    "publication_year": 1937,
+    "isbn": "9780261102217",
+    "copies_available": 5
+  },
+  {
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "genre": ["Mystery", "Thriller"],
+    "publication_year": 2003,
+    "isbn": "9780307277671",
+    "copies_available": 2
+  },
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "genre": ["Science Fiction", "Dystopian"],
+    "publication_year": 2008,
+    "isbn": "9780439023481",
+    "copies_available": 4
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "genre": ["Science Fiction", "Comedy"],
+    "publication_year": 1979,
+    "isbn": "9780345391803",
+    "copies_available": 6
+  },
+  {
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin",
+    "genre": ["Fantasy", "Adventure"],
+    "publication_year": 1996,
+    "isbn": "9780553386790",
+    "copies_available": 3
+  },
+  {
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "author": "C.S. Lewis",
+    "genre": ["Fantasy"],
+    "publication_year": 1950,
+    "isbn": "9780064471046",
+    "copies_available": 7
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": ["Fiction", "Coming-of-age"],
+    "publication_year": 1951,
+    "isbn": "9780316769488",
+    "copies_available": 6
+  },
+  {
+    "title": "The Shining",
+    "author": "Stephen King",
+    "genre": ["Horror", "Thriller"],
+    "publication_year": 1977,
+    "isbn": "9780307743657",
+    "copies_available": 3
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "genre": ["Mystery", "Thriller"],
+    "publication_year": 2005,
+    "isbn": "9780307454546",
+    "copies_available": 4
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": ["Fiction", "Philosophy"],
+    "publication_year": 1988,
+    "isbn": "9780061122415",
+    "copies_available": 5
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "genre": ["Fiction", "Drama"],
+    "publication_year": 2003,
+    "isbn": "9781594480003",
+    "copies_available": 2
+  },
+  {
+    "title": "Gone with the Wind",
+    "author": "Margaret Mitchell",
+    "genre": ["Historical Fiction", "Romance"],
+    "publication_year": 1936,
+    "isbn": "9781451635621",
+    "copies_available": 3
+  },
+  {
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "genre": ["Children's Literature"],
+    "publication_year": 1911,
+    "isbn": "9780141321066",
+    "copies_available": 4
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "genre": ["Gothic Fiction", "Philosophical fiction"],
+    "publication_year": 1890,
+    "isbn": "9781593080259",
+    "copies_available": 2
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "genre": ["Post-apocalyptic", "Adventure"],
+    "publication_year": 2006,
+    "isbn": "9780307387899",
+    "copies_available": 5
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "genre": ["Science Fiction", "Thriller"],
+    "publication_year": 2011,
+    "isbn": "9780553418026",
+    "copies_available": 6
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genre": ["Science Fiction", "Dystopian"],
+    "publication_year": 1932,
+    "isbn": "9780060850524",
+    "copies_available": 3
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genre": ["Gothic Fiction", "Science Fiction"],
+    "publication_year": 1818,
+    "isbn": "9780141439471",
+    "copies_available": 4
+  }
+]
