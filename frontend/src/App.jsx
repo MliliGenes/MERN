@@ -15,20 +15,21 @@ function App() {
   }, []);
 
   let booksElem = books.map((b, i) => (
-    <li key={i}>
-      {b.title} by <span style={{ color: "gray" }}>{b.author}</span>{" "}
-      <span style={{ color: "gray", fontSize: "12px", fontWeight: "900" }}>
+    <tr key={i}>
+      <td>{i + 1}</td> <td>{b.title}</td>{" "}
+      <td style={{ color: "white" }}>{b.author}</td>
+      <td style={{ color: "white", fontSize: "12px", fontWeight: "900" }}>
         {b.publication_year}
-      </span>
-    </li>
+      </td>
+    </tr>
   ));
   console.log(books);
   return (
     <>
-      <ol className="container">
-        <h1>Books📖:</h1>{" "}
+      <h1>Books📖:</h1>
+      <table className="container">
         {booksElem.length > 0 ? booksElem : "no books available"}
-      </ol>
+      </table>
     </>
   );
 }

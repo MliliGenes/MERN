@@ -81,6 +81,39 @@ app.post("/newBook", async (req, res) => {
   }
 });
 
+app.put("/editBook/:isbn", async (req, res) => {
+  try {
+    if (
+      !req.body.title ||
+      !req.body.author ||
+      !req.body.genre ||
+      !req.body.publication_year ||
+      !req.body.isbn ||
+      !req.body.copies_available
+    ) {
+      return res.status(500).send({ message: "send all required params ✌️" });
+    }
+
+    const isbn = req.params.isbn;
+
+    const editedBook = {
+      title: req.body.title,
+      author: req.body.author,
+      genre: req.body.genre,
+      publication_year: req.body.publication_year,
+      isbn: req.body.isbn,
+      copies_available: req.body.copies_available,
+    };
+
+    const newBook = await Book.updateOne({ isbn: isbn }, editedBook);
+
+    if (newBook) return res.status(202).send(newBook);
+  } catch (err) {
+    console.log(err);
+    res.status(500).send({ message: err.message });
+  }
+});
+
 app.delete("/books/:isbn", async (req, res) => {
   try {
     const isbn = req.params.isbn;
